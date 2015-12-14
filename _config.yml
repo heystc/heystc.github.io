@@ -12,9 +12,9 @@ pygments: true
 
 # 作者信息
 author: 
-  name: 高扬
-  email: gycoderhh@gmail.com
-  link: http://blademastercoder.github.io/
+  name: 贺勇
+  email: heyongsheng@gmail.com
+  link: http://heystc.github.io/
   weibo: http://weibo.com/u/2344559062
   github: https://github.com/BladeMasterCoder
   github_username:  BladeMasterCoder
@@ -26,7 +26,7 @@ description:
   一不小心迈入计算机行业，在程序猿的道路上艰难地前行，目标是成
   为一名优秀的全栈工程师或者说资深码农。对很多东西都充满兴趣，
   跑步游泳，近期目标是能跑半程马拉松，学会自由泳。
-url: http://blademastercoder.github.io/
+url: http://heystc.github.io/
 rss_url: /feed.xml
 
 # gavatar头像及Favicon
@@ -35,7 +35,7 @@ favicon : /assets/img/favicon.png
 
 # disqus 设置
 #disqus:
-#  shortname: blademastercoder
+#  shortname: heystc
 
 #profile 个人信息
 
