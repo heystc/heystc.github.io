@@ -20,6 +20,9 @@ author:
   github_username:  heystc
   weibo_username:  heystc
 
+duoshuoQuery:
+  short_name:heys
+
 # 站点信息
 title : TBD
 description: 
@@ -34,7 +37,7 @@ gavatar : /assets/img/gavatar.png
 favicon : /assets/img/favicon.png
 
 # disqus 设置
-#disqus:
+# disqus:
 #  shortname: heystc
 
 #profile 个人信息
