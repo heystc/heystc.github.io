@@ -16,9 +16,10 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
   <script type="text/javascript" src="http://echarts.baidu.com/build/dist/echarts.js"></script>
-  <script type="text/javascript" src="/assets/js/embed.js"></script>
   <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   <script type="text/javascript" src="/assets/js/ua-parser.js"></script>
+  {% if site.duoshuo_query.short_name %}
   <script>var duoshuoQuery = {short_name:"{{ site.duoshuo_query.short_name }}"};</script>
-  {{ site.duoshuo_query.short_name }}
+  <script type="text/javascript" src="/assets/js/embed.js"></script>
+  {% endif %}
 </head>

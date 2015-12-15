@@ -18,7 +18,7 @@ author:
   weibo: http://weibo.com/u/2344559062
   github: https://github.com/heystc
   github_username: heystc
-  weibo_username: heystc
+  #weibo_username: heystc
 
 duoshuo_query:
   short_name: heys
