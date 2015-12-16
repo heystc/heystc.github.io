@@ -1,5 +1,5 @@
 encoding: UTF-8
-
+gems: [jekyll-paginate]
 permalink: /:year/:month/:day/:title.html
 paginate: 5
 markdown: kramdown
@@ -8,14 +8,14 @@ kramdown:
   input: GFM
 
 highlighter: pygments
-pygments: true
+#pygments: true
 
 # 作者信息
 author: 
   name: 贺勇
   email: heyongsheng@gmail.com
   link: http://heystc.github.io/
-  weibo: http://weibo.com/u/2344559062
+  #weibo: http://weibo.com/u/2344559062
   github: https://github.com/heystc
   github_username: heystc
   #weibo_username: heystc
@@ -29,6 +29,7 @@ description:
   一不小心迈入计算机行业，在程序猿的道路上艰难地前行，目标是成
   为一名优秀的全栈工程师或者说资深码农。
   对很多东西都充满兴趣，跑步游泳，近期目标是能跑半程马拉松，学会自由泳。
+#baseurl: http://heystc.github.io
 url: http://heystc.github.io/
 rss_url: /feed.xml
 
@@ -42,7 +43,7 @@ favicon : /assets/img/favicon.png
 
 #profile 个人信息
 
-profile_desc : 未来的不可知正是人活着的意义<br>
+profile_desc : 未来的不可知正是活着的意义<br>
 
 # 首页除了最新文章外显示分类
 cates: 
